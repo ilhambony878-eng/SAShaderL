@@ -13,8 +13,9 @@ endif
 LOCAL_SRC_FILES := \
     main.cpp \
     mod/logger.cpp \
-    core/Phoenix.cpp
-    core/ShaderCompiler.cpp
+    core/Phoenix.cpp \
+    core/ShaderCompiler.cpp \
+    core/ShaderProgram.cpp
 
 LOCAL_CFLAGS += -O2
 LOCAL_CFLAGS += -DNDEBUG
