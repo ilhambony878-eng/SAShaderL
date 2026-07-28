@@ -443,6 +443,8 @@ extern "C" void OnModPreLoad()
 extern "C" void OnModLoad()
 {
     logger->SetTag("SA ShaderLoader");
+    
+    Phoenix::Instance().Initialize();
 
     pGTASA = aml->GetLib("libGTASA.so");
     hGTASA = aml->GetLibHandle("libGTASA.so");
